@@ -215,3 +215,99 @@
     .body-main-block__socials { }
     .socials-main-block { }
     .socials-main-block__items { }
+
+
+    /* -------------------------------------- */
+
+    .paige__bio {
+      
+     }
+    .bio-block {
+      width: 100%;
+      background-color: #24263B;
+     }
+    .bio-block__container {
+      min-height: 833px;
+     }
+    .bio-block__body {
+      display: flex;
+      padding-top: 163px;
+      gap: 60px;
+      margin-left: 150px;
+     }
+    .body-bio-block {
+     }
+    .body-bio-block__picture {
+      margin-top: 108px;
+     }
+    .body-bio-block__data {
+
+     }
+    .data-bio { }
+    .data-bio__title1 {
+      color: rgb(255, 255, 255);
+      font-family: Outfit;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 12px;
+      letter-spacing: 15%;
+      text-transform: capitalize;
+     }
+     .data-bio__title2 {
+      margin-top: 31px;
+      color: rgb(255, 255, 255);
+      font-family: Outfit;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 48px;
+      letter-spacing: 0%;
+      text-align: left;
+     }
+
+    .data-bio__text {
+      max-width: 524px;
+      color: rgb(255, 255, 255);
+      font-family: Public Sans;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+     }
+    .data-bio__table {
+      margin-top: 20px;
+      border-spacing: 5px 40px;
+     }
+     .table-bio__title {
+      color: rgb(255, 255, 255);
+      font-family: Outfit;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+     }
+     .table-bio__info {
+      color: rgb(255, 255, 255);
+      font-family: Public Sans;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 26px;
+      letter-spacing: 0%;
+      text-align: left;
+    }
+    .data-bio__button {
+      margin-top: 38px;
+      font-family: Outfit, sans serif;
+      font-weight: 700;
+      font-size: 15px;
+      text-align: center;
+      font-style: normal;
+      color: #FFFFFF;
+      background-color: #FE461C;
+      height: 50px;
+      padding-left: 29px;
+      padding-right: 29px;
+      border-radius: 4px;
+      border: none;
+     }
