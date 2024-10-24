@@ -319,13 +319,32 @@
 .portfolio-block {
    background-color: #1F2235;
    width: 100%;
+   height: 100%;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   overflow: auto;
+   align-items: center;
  }
 .portfolio-block__container {
    display: flex;
    width: 100%;
+   height: 100%;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   overflow: auto;
+   align-items: center;
  }
 .portfolio-block__body {
    margin-top: 120px;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   overflow: auto;
+   align-items: center;
  }
 .body-portfolio { }
 .body-portfolio__title1 {
@@ -377,10 +396,10 @@
    max-width: 1320px;
    width: 100%;
    display:flex;
-   justify-content: space-around;
    flex-wrap: wrap;
-
+   gap: 24px;
  }
+
 .galery-portfolio { }
 .galery-portfolio__item { }
 .galery-item { }
@@ -393,18 +412,21 @@
    height: 260px;
    background-color: #D9D9D9;
    border-radius: 8px;
+   margin-bottom: 24px;
 }
 .galery-item2{
    width: 424px;
    height: 544px;
    background-color: #D9D9D9;
    border-radius: 8px;
+   margin-bottom: 24px;
 }
 .galery-item3{
    width: 424px;
    height: 260px;
    background-color: #D9D9D9;
    border-radius: 8px;
+   margin-bottom: 24px;
 }
 .galery-item4{
    width: 424px;
