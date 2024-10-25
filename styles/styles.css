@@ -342,7 +342,7 @@
 
  }
 .body-portfolio { }
-.body-portfolio__title1 {
+.body-portfolio__title1, .capture{
    color: rgb(255, 255, 255);
    font-family: Outfit;
    font-size: 16px;
@@ -352,7 +352,7 @@
    text-align: center;
    text-transform: capitalize;
  }
- .body-portfolio__title2 {
+ .body-portfolio__title2, .title{
    margin-top: 17px;
    color: rgb(255, 255, 255);
    font-family: Outfit;
@@ -392,7 +392,6 @@
    max-width: 1320px;
    width: 100%;
    display:flex;
-   flex-wrap: wrap;
    gap: 24px;
    margin-bottom: 120px;
  }
@@ -408,7 +407,6 @@
    justify-content: left;
  }
 .galery-item { }
-.galery-item__image { }
 .galery-item__title2 {
    margin-bottom: 15px;
    color: rgb(255, 255, 255);
@@ -430,14 +428,14 @@
    text-align: left;
  }
 
-.galery-item1{
+.galery-first-item{
    width: 424px;
    height: 260px;
    background-color: #D9D9D9;
    border-radius: 8px;
    margin-bottom: 24px;
 }
-.galery-item2{
+.galery-second-item{
    width: 424px;
    height: 544px;
    background-color: #D9D9D9;
@@ -447,28 +445,74 @@
    align-items: flex-end;
    
 }
-.galery-item3{
-   width: 424px;
-   height: 260px;
-   background-color: #D9D9D9;
-   border-radius: 8px;
-   margin-bottom: 24px;
-}
-.galery-item4{
-   width: 424px;
-   height: 544px;
-   background-color: #D9D9D9;
-   border-radius: 8px;
-}
-.galery-item5{
-   width: 424px;
-   height: 260px;
-   background-color: #D9D9D9;
-   border-radius: 8px;
-}
-.galery-item6{
-   width: 424px;
-   height: 544px;
-   background-color: #D9D9D9;
-   border-radius: 8px;
-}
+
+
+
+
+.paige__services { }
+.services-block {
+   background-color: #24263B;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   align-content: center;
+   justify-content: center;
+   overflow: auto;
+ }
+.services-block__container {
+   max-width: 1320px;
+ }
+.titles-block {
+   margin-top: 130px;
+   text-align: center;
+ }
+
+.services-block__cards {
+   display: flex;
+   margin-top: 55px;
+   margin-bottom: 120px;
+ }
+.cards-block {
+   gap: 31px;
+ }
+.cards-block__frame {
+   background-color: #1F2235;
+   max-width: 307px;
+
+ }
+.cards-block__card {
+   margin: 41px 39px 25px 25px;
+ }
+.cards-block__card-logo {
+   width: 50px;
+   height: 50px;
+ }
+.cards-block__card-title {
+   color: rgb(255, 255, 255);
+   font-family: Outfit;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 25px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-top: 26px;
+ }
+.cards-block__card-text {
+   color: rgb(255, 255, 255);
+   font-family: Public Sans;
+   font-size: 16px;
+   font-weight: 300;
+   line-height: 24px;
+   letter-spacing: 0%;
+   text-align: left;
+   margin-top: 26px;
+ }
+.cards-block__card-arrow-img {
+   width: 90px;
+   height: 90px;
+   margin-top: 37px;
+ }
+ .cards-block__card-arrow-img:hover {
+   background:#FE461C;
+   border-radius: 50px;
+ }
