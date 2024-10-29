@@ -16,12 +16,12 @@
             <nav class="header__menu menu">
                <ul class="menu__list">
                   <li class="meny__item">
-                     <a href="" class="menu__link">
+                     <a href="#main" class="menu__link">
                         Home
                      </a>
                   </li>
                   <li class="meny__item">
-                     <a href="" class="menu__link">
+                     <a href="#bio" class="menu__link">
                         About
                      </a>
                   </li>
@@ -63,7 +63,7 @@
          </div>
       </header>
       <main class="paige">
-         <section class="paige__main main-block">
+         <section class="paige__main main-block" #="main">
             <div class="main-block__container">
                <div class="main-block__body body-main-block">
                   <div class="body-main-block__content contact-main-body">
@@ -93,7 +93,7 @@
                </div>
             </div>
          </section>
-         <section class="paige__bio bio-block">
+         <section class="paige__bio bio-block" name="bio">
             <div class="bio-block__container">
                <div class="bio-block__body body-bio-block">
                   <img class="body-bio-block__picture" src="./img/bio-picture.png" style="width: 600px; height: 530px;" alt="">
@@ -399,9 +399,75 @@
                </div>
             </div>
          </section>
+         <section class="paige-subscribe subscribe-block">
+            <div class="subscribe-block__container">
+               <div class="subscribe-block__titles">
+                  <h4 class="subscribe-block__titles-capture">Subscribe Now</h4>
+                  <h2 class="subscribe-block__titles-title">Get My Newsletter</h2>
+                  <p class="subscribe-block__titles-text">Get latest news, updates, 
+                     tips and trics in your inbox</p>
+               </div>
+               <div class="subscribe-block__input">
+                  <input type="text" class="subscribe-block__input-item" placeholder="Enter your Email">
+                  <a href="" class="subscribe-block__input-button">Subscribe</a>
+               </div>
+            </div>
+         </section>
+         <section class="paige__contacts contacts-block">
+            <div class="contacts-block__container">
+               <h6 class="contacts-block__capture capture">Contact</h6>
+               <h3 class="contacts-block__title title">Get in Touch</h3>
+               <div class="contacts-block__group">
+                  <div class="contacts-block__group-items contacts-items">
+                     <div class="contacts-items__group bc">
+                        <img class="contacts-items__group-image" src="./img/contacts/phone.png" alt="">
+                        <div class="contacts-items__group-description">
+                           <h3 class="contacts-items__group-description-title contact-title">Phone number</h3>
+                           <p class="contacts-items__group-description-text">
+                              +8801284593, 01239-420007 02-9611936
+                           </p>
+                        </div>
+                     </div>
+                     <div class="contacts-items__group bc">
+                        <img class="contacts-items__group-image" src="./img/contacts/letter.png" alt="">
+                        <div class="contacts-items__group-description">
+                           <h3 class="contacts-items__group-description-title contact-title">Email Address</h3>
+                           <p class="contacts-items__group-description-text">
+                              sahjahansagor2020@.com sahjahansagor3020@.com
+                           </p>
+                        </div>
+                     </div>
+                     <div class="contacts-items__group bc">
+                        <img class="contacts-items__group-image" src="./img/contacts/point.png" alt="">
+                        <div class="contacts-items__group-description">
+                           <h3 class="contacts-items__group-description-title contact-title">Office address</h3>
+                           <p class="contacts-items__group-description-text">
+                              Suite 1307, Tropical Center 218 New Elephant Road,
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="contacts-block__group-form">
+                     <h3 class="contacts-block__group-form-title contact-title">Send Message</h3>
+                     <form action="" class="">
+                        <div class="contacts-block__group-form-items">
+                           <input type="text" class="contacts-block__group-form-items-input bc" placeholder="Your Name">
+                           <input type="text" class="contacts-block__group-form-items-input bc" placeholder="Your Email">
+                        </div>
+                        <textarea class="contacts-block__group-form-textarea bc" name="" id="" placeholder="Your Message"></textarea>
+                        <a class="contacts-block__group-form-button" href="">Submit message</a>
+                     </form>
+                  </div>
+               </div>
+               <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20206.560377939844!2d24.1664328!3d50.
+                            7232776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1730216421498!5m2!1suk!2sua" 
+                            width="1170" height="550" style="border:0;" allowfullscreen="" loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+         </section>
       </main>
       <footer class="footer">
-
+         <p class="footer__text">All Right Reserved. Designed and Developed by LabArtisan</p>
       </footer>
    </div>
 </body>
