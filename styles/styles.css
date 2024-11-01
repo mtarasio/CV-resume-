@@ -22,7 +22,7 @@
       flex-direction: column;
       
    }
-   .paige{
+   .page{
       flex: 1 1 auto;
       font-size: 0;
    }
@@ -37,22 +37,7 @@
       margin: 0 auto;
 
    }
-   @media (max-width: 1900px){
-      [class*="__container"] {
-         max-width: 1600px;
-      }
-   }
-   @media (max-width: 991px){
-      [class*="__container"] {
-         max-width: 750px;
-      }
-   }
-   @media (max-width: 768px){
-      [class*="__container"] {
-         max-width: none;
-         padding: 0px 15px;
-      }
-   }
+ 
    .header {
       background-color: #1F2235;
       position: absolute;
@@ -120,7 +105,7 @@
 
     /* -------------------------------------- */
 
-    .paige {
+    .page {
       position: relative;
      }
  
@@ -210,6 +195,10 @@
       margin-top: 242px;
       z-index: 1;
      }
+     body-main-block__picture > img {
+      width: 783px;
+      height: auto;
+     }
 
 
     /* -------------------------------------- */
@@ -233,6 +222,8 @@
 
     .body-bio-block__picture {
       margin-top: 108px;
+      width: 600px; 
+      height: 530px;
      }
 
     .data-bio__title1 {
@@ -266,7 +257,6 @@
       text-align: left;
      }
     .data-bio__table {
-      margin-top: 20px;
       border-spacing: 5px 40px;
      }
      .table-bio__title {
@@ -288,7 +278,7 @@
       text-align: left;
     }
     .data-bio__button {
-      margin-top: 38px;
+      
       font-family: Outfit, sans serif;
       font-weight: 700;
       font-size: 15px;
@@ -634,7 +624,7 @@
 .testimonial-block__cards-column {
    display: flex;
    flex-direction: column;
-   width: 424px;
+   max-width: 424px;
  }
 .testimonial-block__cards-column-name {
    color: rgb(255, 255, 255);
@@ -691,7 +681,7 @@
  /* -------------------------------------- */
 
 
-.paige__blog { 
+.page__blog { 
    background-color: #1F2235;
 }
 .blog-block {
@@ -715,7 +705,7 @@
 }
 
 .blog-block__group-post-image {
-   width: 424px;
+   max-width: 424px;
    height: 315px;
    border-radius: 8px;
    background-color: #D9D9D9;
@@ -882,7 +872,7 @@
  /* -------------------------------------- */
 
 
-.paige__contacts {
+.page__contacts {
    background-color: #1F2235;
  }
 .contacts-block {
@@ -1008,6 +998,8 @@
  iframe {
    border-radius: 8px;
    margin-bottom: 120px;
+   width: 1170px;
+   height: 550px;
  }
 
 
@@ -1189,4 +1181,188 @@
       margin-top: 50px;
       margin-bottom: 50px;
    }
- }
+   }
+   @media screen and (max-width: 320px){
+      .body-main-block__content {
+         margin-right: 20px;
+         margin-top: 200px;
+      }
+      .contact-main-body__capture2 {
+         line-height: 20px;
+         font-size: 20px;
+      }
+      .contact-main-body__text{
+         line-height: 20px;
+         font-size: 9px;
+      }
+      .contact-main-body__buttons {
+         gap: 10px;
+      }
+      .buttons-main-body__button1 {
+         width: 120px;
+         height: 40px;
+      }
+      .buttons-main-body__button2 {
+         width: 120px;
+         height: 40px;
+         padding: 0;
+      }
+      .body-main-block__picture > img{
+         width: 250px;
+      }
+      .main-block__container {
+         max-width: 320px;
+         justify-content: center;
+         align-items: center;
+      }
+      .bio-block__body {
+         padding-top: 0;
+         max-width: 320px;
+         justify-content: center;
+         align-items: center;
+     }
+      .bio-block__body > img {
+         width: 250px;
+         height: 250px;
+         margin-top: 50px;
+      }
+      .data-bio {
+         max-width: 320px;
+         align-items: center;
+         padding: 0 10px 20px 10px;
+      }
+      .data-bio__title2 {
+         margin-top: 15px;
+         font-size: 30px;
+      }
+      .data-bio__text {
+         font-size: 14px;
+      }
+      .body-portfolio {
+         max-width: 320px;
+      }
+      .nav-bar__menu {
+         gap: 8px;
+      }
+      .galery-portfolio {
+         max-width: 300px;
+         margin-bottom: 0;
+      }
+      .galery-first-item {
+         width: 300px;
+         height: 160px;
+     }
+     .galery-second-item {
+      width: 300px;
+      height: 420px;
+      }
+      .titles-block {
+         margin-top: 50px;
+      }
+      .services-block__cards {
+         margin-bottom: 50px;
+      }
+      .resume-block__container{
+         margin-top: 50px;
+      }
+      .resume-block__info {
+         max-width: 300px;
+      }
+      .testimonial-block__container{
+         margin-top: 50px;
+      }
+      .blog-block__group-post {
+         max-width: 300px;
+      }
+      .blog-block__group-post-image{
+         max-width: 300px;
+      }
+      .subscribe-block__container{
+         justify-content: center;
+         flex-direction: column;
+         margin-bottom: 50px;
+      }
+      .subscribe-block__titles-capture,
+      .subscribe-block__titles-text, 
+      .subscribe-block__titles-title{
+         text-align: center;
+      }
+      .subscribe-block__titles {
+         margin-left: 0;
+         padding-top: 0;
+         padding-bottom: 0;
+      }
+      .subscribe-block__titles-title{
+         font-size: 38px;
+         line-height: 45px;
+      }
+      .subscribe-block__input{
+         margin-top: 0;
+      }
+      .subscribe-block__input-item{
+         width: 250px;
+      }
+      .subscribe-block__input-button{
+         width: 120px;
+      }
+      .contacts-block__container{
+         margin-top: 50px;
+      }
+      .contacts-block__group{
+         flex-direction: column;
+      }
+      .contacts-items__group {
+         padding: 5px 5px;
+         gap: 15px;
+      }
+      .contacts-block__group-form-items{
+         flex-direction: column;
+      }
+      .contacts-block__group-form-items-input{
+         max-width: 280px;
+      }
+      .contacts-block__group-form-textarea{
+         max-width: 280px;
+      }
+      iframe{
+         margin-bottom: 50px;
+         width: 270px;
+         height: 220px;
+      }
+      .footer{
+         height: 50px;
+      }
+      .footer__text {
+         font-size: 9px;
+         font-weight: 200;
+         line-height: 10px;
+     }
+     .contacts-block__group-form-button{
+      width: 120px;
+      height: 40px;
+      padding-top: 12px;
+      font-size: 12px;
+     }
+   }
+   @media (max-width: 1900px){
+      [class*="__container"] {
+         max-width: 1600px;
+      }
+   }
+   @media (max-width: 991px){
+      [class*="__container"] {
+         max-width: 750px;
+      }
+   }
+   @media (max-width: 768px){
+      [class*="__container"] {
+         max-width: 640px;
+         padding: 0px 15px;
+      }  
+   }
+   @media (max-width: 320px){
+      [class*="__container"] {
+         max-width: 300px;
+         padding: 0px 15px;
+      }  
+   }
